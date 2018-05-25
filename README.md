@@ -1,4 +1,4 @@
-# PhoenixApp
+# PhoenixApp Chat
 
 Elixir Version:
 ````````````````````
