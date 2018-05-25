@@ -96,18 +96,14 @@ Generates controller, views, and context for an JSON resource.
 `````````````````````````````````
 mix phx.gen.json Model User users name:string age:integer
 
-`````````````````````````````
-
+````````````````````````````````
 Web namespace
-By default, the controller and view will be namespaced by the schema name.
- You can customize the web module namespace by passing
-  the --web flag with a module name, for example:
+By default, the controller and view will be namespaced by the schema name.You can customize the web module namespace by passing the --web flag with a module name, for example:
 
 mix phx.gen.html Sales User users --web Sales
 
 
-Which would geneate a 
-lib/app_web/controllers/sales/user_controller.ex and lib/app_web/views/sales/user_view.ex.
+Which would geneate a lib/app_web/controllers/sales/user_controller.ex and lib/app_web/views/sales/user_view.ex.
 
 Generate a Migration
 Let’s generate a migration to add fields to our User model.
@@ -123,8 +119,8 @@ $ mix phoenix.gen.model → which creates: model and repository
 
 
 Routes:
-````````````
-mix phoenix.routes
+
+ mix phoenix.routes
 
 ``````````````````
 
