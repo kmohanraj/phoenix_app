@@ -1,5 +1,13 @@
 # PhoenixApp Chat
 
+Elixir Code Formatter:
+``````````````````````
+add to dependencies to dps in Mix.exe file {:credo, "~> 0.9.1"}
+mix credo --strict
+
+``````````````````````
+
+
 Elixir Version:
 ````````````````````
   Elixir 1.6.5 
